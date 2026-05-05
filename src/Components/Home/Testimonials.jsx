@@ -33,7 +33,7 @@ const Testimonials = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {reviews.map((review, index) => (
                         <div key={index} className="relative group">
-                            <div className="absolute -inset-0.5 bg-gradient-to-b from-primary/20 to-transparent rounded-[2.5rem] blur opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <div className="absolute -inset-0.5 bg-linear-to-b from-primary/20 to-transparent rounded-[2.5rem] blur opacity-0 group-hover:opacity-100 transition-opacity"></div>
                             <div className="relative p-10 rounded-[2.5rem] bg-[#0a0a0a] border border-white/10 h-full flex flex-col justify-between">
                                 <div className="space-y-6">
                                     <div className="flex items-center justify-between">
